@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <h1 class="title">Dojonary</h1>
+        <input class="search" type="text" placeholder="Search">
+        <button class="login" type=" button" onclick="logout(this)">Login</button>
+    </div>
+    <div class="twoboxes">
+        <div class="box1">
+            <div class="word">
+                <h1 class="ninja">ninja</h1>
+                <label class="noun">noun</label>
+                <p class="plural">Plural:<i> ninjas</i></p>
+                <button class="likes" type="button" onclick="alert('Ninja was liked')">13 likes</button>
+            </div>
+            <div class="defbox">
+                <p class="definition">A practitioner skilled in the <a href="#">Japanese</a> art of <a
+                        href="#">ninjutsu</a></p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="word1">
+                <h1 class="ninja1">ninja</h1>
+                <p class="noun1">noun</p>
+                <p class="plural1">Plural:<i> ninjas</i></p>
+                <button class="likes1" type="button1">37 likes</button>
+            </div>
+            <div class="defbox1">
+                <p class="definition1">A <a href="#">programer</a> who breaks down problems with <a
+                        href="#">Zen</a>-like focus</p>
+            </div>
+        </div>
+    </div>
+    <div class="box3">
+        <label class="definition2">Dojonary is defined by <strong>YOU</strong></label>
+        <p><button class="addef" type="button" onclick="hide(this)">Add Definition</button></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
